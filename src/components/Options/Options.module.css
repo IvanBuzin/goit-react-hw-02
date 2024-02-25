@@ -9,5 +9,6 @@
   border-radius: 8px;
   padding: 8px 16px;
   color: #000;
-  border: none;
+  background-color: #aa9696;
+  border: rgb(43, 38, 32);
 }
