@@ -9,11 +9,6 @@ export const Options = ({ onTrack, totalFeed, setFeedback }) => {
         </button>
       </li>
       <li>
-        <button className={css.btn} onClick={() => onTrack("good")}>
-          Good
-        </button>
-      </li>
-      <li>
         <button className={css.btn} onClick={() => onTrack("neutral")}>
           Neutral
         </button>
