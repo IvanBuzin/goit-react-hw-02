@@ -18,8 +18,10 @@ export const Feedback = ({ value, totalFeed, info }) => {
         <li className={css.listItem}>
           <p className={css.listText}>Total: {totalFeed}</p>
         </li>
+        <li className={css.listItem}>
+          <p className={css.text}>Positive: {info}%</p>
+        </li>
       </ul>
-      <p className={css.text}>Positive: {info}%</p>
     </div>
   );
 };
