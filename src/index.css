@@ -66,3 +66,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
